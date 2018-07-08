@@ -5,3 +5,6 @@ git reset
 git log
 git reflog
 git diff
+git checkout -- file
+git reset head file
+hhhh
