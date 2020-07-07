@@ -1,0 +1,18 @@
+/etc/rsyslog.conf
+/var/log
+cron 系统定时任务相关日志
+cups 记录打印信息的日志
+dmesg 记录了系统开机内核自检信息，也可以直接dmesg命令查看内核自检
+maillog 记录邮件信息
+message 记录重要信息的日志，这个日志文件会记录linux系统的绝大多数重要信息
+btmp 记录错误登陆日志，这个文件是二进制文件，不能直接vi查看，要使用lastb命令查看
+lastlog 记录最后一次登陆日志，lastb，二进制文件
+wtmp 永久记录所有用户的登陆注销信息同时记录系统重要重启关机事件，二进制
+utmp 记录当前用户的信息w who users
+secure 记录验证和授权方面的信息，只要涉及账号密码的程序都会记录。ssh sudo su
+
+find
+grep
+awk
+sed
+
